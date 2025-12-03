@@ -1,7 +1,7 @@
 # STA-145-Final-Project
 ### My replication package for my STA-145 final project.  I took the data of the New Jersey legislator and analyzed many facts about each legislator, most importantly sexuality and party. I sought to figure out if one party had more LGQBT+ members than other. 
 ## Instructions
-### To access and utilize the script, open the "swartzm1-finalproject.R" file, which contains the code for my project. To access the dataset, open the "data3 - Sheet1 (2).csv" file.
+### To access and utilize the script, open the "swartzm1-finalproject.R" file, which contains the code for my project. To access the dataset, open the "Politics 4-NJ Leg - Data Table Tabular (1).csv" file.
 ## Data
 ### The data collected for this project focused on members of the New Jersey Legislature, with the goal of examining the relationship between legislators’ sexuality and their political party affiliation. The primary objective of the analysis was to determine whether any notable patterns or correlations exist between these two variables. I analyzed the dataset by identifying each legislator’s party, categorizing their sexuality based on publicly available information, and recording additional relevant demographic details. This allowed me to compare trends across groups and evaluate how these patterns aligned with my original expectations.
 ## Operationalization 

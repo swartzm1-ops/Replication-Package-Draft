@@ -1,0 +1,31 @@
+##### STEP 1: Examine the scatter plot
+# showing the relationship between campaign spending and observed vote share 
+
+
+linear_plot <- plot(vote_table$campaign_spending, vote_table$observed_vote_share)
+print(linear_plot)
+
+# add x line and y line for means
+meany <- mean(vote_table$campaign_spending)
+meanx <- mean(vote_table$observed_vote_share)
+
+abline(v = meany, col = "black")
+abline(h = meanx, col = "black")
+
+
+
+##### STEP 2: Calculate linear regression line (i.e., slope) and add to scatter plot
+linear_relationship <- lm(data3$party ~ data3$sexuality, data = data3)
+summary(linear_relationship)
+
+# Add the linear regression line to the scatter plot
+# NOTE: double check the scatter plot is currently in your utilities window!
+abline(linear_relationship, col = "red")
+
+##### STEP 3: Plot the residuals
+
+# Plot the residuals
+plot(data3$party, data3$sexuality)
+
+# Add a horizontal line at zero to indicate the baseline
+abline(h = 0, col = "red")
